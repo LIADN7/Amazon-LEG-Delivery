@@ -1,0 +1,49 @@
+איך לטעון את מונגו
+docker run --name mymongo mongo
+docker exec -it mymongo bash 
+mongo "mongodb+srv://cluster0.1clrl.mongodb.net/myFirstDataBase" --username user
+password: admin
+
+docker run -d mongo
+docker exec -it mymongo bash
+mongo "mongodb+srv://cluster0.1clrl.mongodb.net/myFirstDataBase" --username user
+password: user123
+
+
+מה להוריד לNPM
+npm i ejs nodemon express faker qrcode redis redis-rejson body-parser
+firebase
+firebase-tools -g
+
+
+אתחול FIREBASE:
+firebase login
+firebase init hosting
+
+להתחבר רדיס
+docker exec -it liad redis-cli
+
+JSON.SET users . '{"users": [{"username": "admin","password": "admin"}]}'
+JSON.SET current . '{"user":"-"}' 
+JSON.SET user_info . '{"admin": [{"email_adress": "","first_name": "","last_name": "","address": "","city": "","zip_code": "","about": ""}]}'
+
+
+JSON.SET user_info . '{"info": {"admin": {"email_adress": "liadn7@gmail.com","first_name": "liad","last_name": "nagi","address": "yhoda","city": "petch tiqva","country": "israel","zip_code": "432242","about": "sdsdsdsd"}}}'
+
+
+
+
+redis :
+קודם כל לבדוק את הת.ז של השרת 
+docker ps נותן מה שרצץ על המחשב
+docker container ls --- לא חובה
+docker run --name rdb -p 6379:6379 redis
+docker exec -it liad7 redis-cli
+
+
+
+
+איך להריץ ספארק:
+קודם להרים את המכונה מהדוקר
+./bin/spark-shell כדי לפתוח את הספרק בSKALA
+./bin/pyspark כדי להרית את האינטרפטר של פייטון

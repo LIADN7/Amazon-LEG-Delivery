@@ -1,0 +1,220 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+ 
+.Mymodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+  }
+  
+  .Mymodal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .Mymodal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .Mymodal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .Mymodal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .Mymodal-body {
+    padding: 10px 15px;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+body {
+    display: flex; 
+    font-size: 14px;
+    margin:0;
+    align-items: center;
+    justify-content:center; 
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: Calibri, Helvetica, sans-serif;
+    background: linear-gradient( to left,rgb(197, 217, 247) ,#26c6da) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.perspective-text {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    color: white;
+    font-family: Arial;
+    font-size: 58px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+.perspective-line {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+p {
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 40px;
+    color: #474647;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+}
+.perspective-line:nth-child(1) {
+    left: 29px;
+}
+
+.perspective-line:nth-child(2) {
+    left: 2px;
+    background: #ffffff;
+}
+
+.perspective-line:nth-child(3) {
+    left: 30px;
+    background: #6d7c92;
+}
+
+.perspective-line:nth-child(4) {
+    left: 60px;
+    background: #ffffff;
+}
+
+.perspective-line:nth-child(5) {
+    left: 80px;
+    background: #6d7c92;
+}
+#box {
+    position: relative;
+    top: 300px;
+    left: -150px;
+    width: 400px;
+    margin: 0;
+    text-align: center;
+    background:#FFF;
+    padding:20px 50px;
+    box-sizing:border-box;
+    box-shadow:0 3px 12px rgba(0,0,0,0.2);
+    border-radius:2%;
+}
+.upv,::placeholder{
+    font-size: 13px;
+    margin: 0;
+    color: #000000 !important;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.password{
+    width: 90%;
+    padding: 15px 12px;
+    margin-bottom: 5px;
+    border: 1px solid #e5e5e5;
+    border-bottom: 2px solid #ddd;
+    background: rgba(0, 0, 0, 0.2) ;
+}
+.buttonS {
+    position: relative;
+    right:55px;
+    top: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: rgba(219, 213, 213, 0.6) !important;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+}
+#buttonR {
+    position: relative;
+    right:-50px;
+    top: -20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: rgba(219, 213, 213, 0.6) !important;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: rgba(255,255,255,0.6) !important;
+}
+.button:active {
+    background-color: rgba(255,255,255,0.6) !important;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.popup-container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.popup{
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0 ,0, 0,0.3);
+    padding: 30px 50px;
+    width: 600px;
+    max-width: 100%;
+} 
