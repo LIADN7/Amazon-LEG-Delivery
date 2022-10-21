@@ -1,6 +1,6 @@
-# Amazon-Clone
+# Amazon - LEG Delivery
 
-<img src="https://github.com/LIADN7/Amazon-Clone/blob/master/imgs/dash.png" width="200" height="200">
+<img src="https://github.com/LIADN7/Amazon-LEG-Delivery/blob/master/imgs/dash.png" width="200" height="200">
 
 ***
 
@@ -14,7 +14,7 @@ All the data and the status prsent in dashboard that includes the pages:
 
 **The project's diagram:**
 
-<img src="https://github.com/LIADN7/Amazon-Clone/blob/master/imgs/Project.png" width="77%" height="77%">
+<img src="https://github.com/LIADN7/Amazon-LEG-Delivery/blob/master/imgs/Project.png" width="77%" height="77%">
 
 
 
@@ -26,15 +26,15 @@ The fairebase got and save all the data then we use to reddis that he our middel
 Every packege got unique QR code that represent the data and the tracking status.
 
 
-<img src="https://github.com/LIADN7/Amazon-Clone/blob/master/imgs/Login.jpeg" width="77%" height="77%">
+<img src="https://github.com/LIADN7/Amazon-LEG-Delivery/blob/master/imgs/Login.jpeg" width="77%" height="77%">
 
 **The main page - Dashboard  :**
 
-<img src="https://github.com/LIADN7/Amazon-Clone/blob/master/imgs/Dashboard.jpeg" width="77%" height="77%">
+<img src="https://github.com/LIADN7/Amazon-LEG-Delivery/blob/master/imgs/Dashboard.jpeg" width="77%" height="77%">
 
 **Unique QR Shipping Status :**
 
-<img src="https://github.com/LIADN7/Amazon-Clone/blob/master/imgs/Deliver.jpeg" width="77%" height="77%">
+<img src="https://github.com/LIADN7/Amazon-LEG-Delivery/blob/master/imgs/Deliver.jpeg" width="77%" height="77%">
 
  
 ## Part B - Analaysis 
@@ -47,7 +47,7 @@ We presented the results we got on a page called Analytical as mentioned above.
 
 **Analitical page :**
 
-<img src="https://github.com/LIADN7/Amazon-Clone/blob/master/imgs/BigML.jpeg" width="77%" height="77%">
+<img src="https://github.com/LIADN7/Amazon-LEG-Delivery/blob/master/imgs/BigML.jpeg" width="77%" height="77%">
 
 
 
